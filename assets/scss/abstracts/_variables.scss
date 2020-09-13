@@ -1,0 +1,52 @@
+//----------------------------COLORS---------------------------//
+
+$White: #FFF;
+$Platinum: #E8E8E8;
+$Gray:#BABABA;
+
+$DarkSalmon: #EE9480;
+$Melon: #F4BAAE;
+$Palepink: #FADFDA;
+
+$BallBlue: #2AB7CA;
+$MiddleBlue: #77D1DD;
+$BlueLagoon: #B1E4EB;
+
+$Onyx: #333745;
+$SpanishGray: #8F9199;
+$LavenderGray: #C7C7CC;
+
+$RaisingBlack: #221d23;
+$Nickel: #726f73;
+$SilverChalice: #AEACAF;
+
+
+//-----------------BREAK-POINTS----------------------------------//
+$bp-sm:576px;
+$bp-md:768px;
+$bp-lg:1280px;
+
+//------------------------------TYPOGRAPHY------------------------------//
+
+
+//Font Family
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+$raleway: 'Raleway', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+
+
+//Font Weight
+$regular:400;
+$bold: 700;
+
+
+//Font Sizes
+$xxxxx-large: 3.125rem;
+$xxxx-large: 2.8125rem;
+$xxx-large: 2.5rem;
+$xx-large: 2.1875rem;
+$x-large: 1.875rem;
+$large: 1.25rem;
+$medium: 1rem;
+$small: 0.875rem;
+$x-small:0.75rem;

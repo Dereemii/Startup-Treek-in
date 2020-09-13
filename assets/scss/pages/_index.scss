@@ -1,0 +1,33 @@
+.hero{
+    height: 100%;
+    width: 100%;
+    &__contenedor-hero{
+
+    display: flex;
+    justify-content: left;
+    margin-left: 4%;
+   
+    height: 43.75rem;
+    background-image: url('../img/bg-hero.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    
+ 
+    & .info-principal{
+        width: 18.75rem;
+        margin-top: 15px;
+        margin-left: 5%;
+        .titulo{
+            font-size: $xx-large;
+            margin-bottom: 0.625rem;
+        }
+
+        .parrafo{
+            font-size: $x-small;
+            line-height: 1.5625rem;
+            
+        }
+    }
+    }
+}

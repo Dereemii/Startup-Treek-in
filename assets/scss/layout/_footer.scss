@@ -1,0 +1,31 @@
+.footer{
+    padding: 0.9375rem 1.875rem;
+    background-color: $RaisingBlack;
+    height: 90%;
+    color: $SilverChalice;
+    display:flex;
+    align-items: center;
+    font-size: $small;
+    &__items{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px 0 20px;
+   
+
+  li{
+    margin: 0.125rem 0.625rem;
+    white-space: wrap;
+    
+  }
+
+  li:nth-last-child(2){
+    flex: 1;
+  }
+
+  li:hover{
+      color:$Platinum;
+  }
+    }
+}
+
